@@ -1,6 +1,13 @@
 {% extends 'layout.twig' %}
 
 {% block body %}
-  <h1>{{title}}</h1>
-  <p>Welcome to {{title}}</p>
+    <section class="intro">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-md-9">
+                    <h1>{{ intro }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
