@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mauren777/IWA/issues"
   },
-  "homepage": "https://github.com/Mauren777/IWA#readme"
+  "homepage": "https://github.com/Mauren777/IWA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
