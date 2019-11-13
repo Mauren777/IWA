@@ -36,3 +36,16 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .articles {
     padding-bottom: 4rem;
 }
+
+footer {
+    font-size: 14px;
+    background: #141313;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 6em 0;
+}
+footer h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
