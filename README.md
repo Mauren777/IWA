@@ -5,9 +5,11 @@ Maura Tangara.
 Student ID: 2017241
 
 ## About
-"LosViajesdeMaura" A travel blog built as a Node.js WebApp that uses the Express framework and Twig template library. 
+"LosViajesdeMaura" A travel blog built with Node.js, uses the Express framework and Twig template engine. 
 
 Data is loaded from xml files and parsed with xml2js package.
+
+The UI implements Bootstrap and custom stylesheet `public/css/LosViajesdeMaura.css`
 
 ## Instructions
 
