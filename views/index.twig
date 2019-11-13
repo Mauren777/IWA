@@ -15,7 +15,7 @@
             <div class="row">
                 {% for article in articles %}
                 <div class="article col-md-8 mb-4">
-                    <img src="https://placeimg.com/730/400/nature" class="img-fluid mb-3">
+                    <img src="{{ article.image }}" alt="{{ article.title }}" class="img-fluid mb-3">
                     <h3>{{ article.title }}</h3>
                     <div><small><strong>Date: {{ article.date }}</strong></small></div>
                     {{ article.body }}
