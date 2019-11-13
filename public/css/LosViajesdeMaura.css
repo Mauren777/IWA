@@ -7,10 +7,32 @@ body {
     color: #666666;
 }
 
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+    background: #fff !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
 .navbar-brand {
     font-weight: bold;
+    color: #E55934 !important;
 }
 
 .intro {
     padding: 4rem 0;
+}
+.intro h1 {
+    font-weight: 300;
+}
+.intro h1 strong {
+    font-weight: 700;
+    color: #9BC53D;
+}
+
+.articles {
+    padding-bottom: 4rem;
 }

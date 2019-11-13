@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="content.xsd">
+    <article id="1">
+        <title>Trip to Africa</title>
+        <date>October 2019</date>
+        <image>https://placeimg.com/730/400/nature</image>
+        <body><![CDATA[<p>Africa is the world's second largest and second most-populous continent. At about 30.3 million km² including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. With 1.2 billion people as of 2016, it accounts for about 16% of the world's human population.</p>]]></body>
+    </article>
+    <article id="2">
+        <title>Trip to Thailand</title>
+        <date>January 2019</date>
+        <image>https://placeimg.com/730/400/nature</image>
+        <body><![CDATA[<p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
+    </article>
+</content>
