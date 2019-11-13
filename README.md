@@ -6,7 +6,8 @@ Student ID: 2017241
 
 ## About
 "LosViajesdeMaura" A travel blog built as a Node.js WebApp that uses the Express framework and Twig template library. 
-Data is loaded from xml files. 
+
+Data is loaded from xml files and parsed with xml2js package.
 
 ## Instructions
 
