@@ -71,6 +71,9 @@ footer {
     color: rgba(255, 255, 255, 0.7);
     padding: 6em 0;
 }
+footer a {
+    color: #fff;
+}
 footer h2 {
     color: #fff;
     margin-bottom: 40px;
