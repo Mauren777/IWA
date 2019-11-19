@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="content.xsd">
+    <apptitle>LosViajesdeMaura</apptitle>
+    <appintro><![CDATA[I am <strong>Traveler</strong> &amp; <strong>Blogger</strong> from Bolivia, Who Loves Documenting Adventures &amp; Discoveries Around the World]]></appintro>
     <article id="1">
         <title>Trip to Africa</title>
         <date>October 2019</date>

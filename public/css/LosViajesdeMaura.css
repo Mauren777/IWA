@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.btn-primary {
+    color:#fff;
+    background-color:#E55934 !important;
+    border-color:rgb(214, 81, 44) !important;
+}
+
 .navbar {
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -19,6 +25,16 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 .navbar-brand {
     font-weight: bold;
+    color: #E55934 !important;
+}
+.navbar-brand i {
+    color: #9BC53D;
+}
+.nav-item {
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-item.active a {
     color: #E55934 !important;
 }
 
@@ -35,6 +51,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .articles {
     padding-bottom: 4rem;
+}
+
+.sidebar {
+    padding: 4rem 0;
+}
+
+.profile-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
 }
 
 footer {

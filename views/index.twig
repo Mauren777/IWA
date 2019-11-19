@@ -1,27 +1,27 @@
 {% extends 'layout.twig' %}
 
 {% block body %}
-    <section class="intro">
-        <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-md-9">
-                    <h1>{{ intro }}</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="articles">
-        <div class="container">
-            <div class="row">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="intro">
+                <h1>{{ intro }}</h1>
+            </section>          
+            <section class="articles">
                 {% for article in articles %}
-                <div class="article col-md-8 mb-4">
+                <div class="article mb-5">
                     <img src="{{ article.image }}" alt="{{ article.title }}" class="img-fluid mb-3">
                     <h3>{{ article.title }}</h3>
                     <div><small><strong>Date: {{ article.date }}</strong></small></div>
                     {{ article.body }}
+                    <hr>
                 </div>
                 {% endfor %}
-            </div>
+            </section>
         </div>
-    </section>
+        <div class="col-md-4">
+            {% include 'sidebar.twig' %}
+        </div>
+    </div>
+</div>
 {% endblock %}

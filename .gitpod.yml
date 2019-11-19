@@ -10,3 +10,6 @@ ports:
 tasks:
 - init: npm install
   command: npm start
+vscode:
+  extensions:
+    - whatwedo.twig@1.0.2:yjUyDW+J4T2IZ2gBu830CQ==

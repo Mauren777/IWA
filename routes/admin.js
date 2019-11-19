@@ -4,9 +4,9 @@ var fs           = require('fs');
 var xml2js       = require('xml2js');
 var parser       = new xml2js.Parser();
 
-/* GET home page. */
+/* GET admin page. */
 router.get('/', function(req, res, next) {
-  
+
   var xmlfile = __dirname + "/../xml/content.xml";
 
   fs.readFile(xmlfile, "utf-8", function (error, text) {
@@ -19,8 +19,8 @@ router.get('/', function(req, res, next) {
                 var appintro = result['content']['appintro'];
                 var articles = result['content']['article'];
 
-                res.render('index', { 
-                  activeMenu: 'Home',
+                res.render('admin', { 
+                  activeMenu: 'Admin',
                   title: apptitle,
                   intro: appintro,
                   articles: articles 
