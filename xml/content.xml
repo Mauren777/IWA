@@ -4,10 +4,14 @@
     <apptitle>LosViajesdeMaura</apptitle>
     <appintro><![CDATA[I am <strong>Traveler</strong> &amp; <strong>Blogger</strong> from Bolivia, Who Loves Documenting Adventures &amp; Discoveries Around the World]]></appintro>
     <article id="1">
-        <title>Trip to Africa</title>
-        <date>October 2019</date>
-        <image>https://placeimg.com/730/400/nature</image>
-        <body><![CDATA[<p>Africa is the world's second largest and second most-populous continent. At about 30.3 million km² including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. With 1.2 billion people as of 2016, it accounts for about 16% of the world's human population.</p>]]></body>
+        <title>Japan and their millenary culture</title>
+        <date>June 2018</date>
+        <image>/images/P1040121.JPG</image>
+        <body><![CDATA[
+            <p>Africa is the world's second largest and second most-populous continent.
+                 At about 30.3 million km² including adjacent islands, it covers 6% of 
+                 Earth's total surface area and 20% of its land area. With 1.2 billion 
+                 people as of 2016, it accounts for about 16% of the world's human population.</p>]]></body>
     </article>
     <article id="2">
         <title>Trip to Thailand</title>
