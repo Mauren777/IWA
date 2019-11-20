@@ -16,13 +16,11 @@ router.get('/', function(req, res, next) {
             parser.parseString(text, function (err, result) {
 
                 var apptitle = result['content']['apptitle'];
-                var appintro = result['content']['appintro'];
                 var articles = result['content']['article'];
 
                 res.render('admin', { 
                   activeMenu: 'Admin',
                   title: apptitle,
-                  intro: appintro,
                   articles: articles 
                 });
             });

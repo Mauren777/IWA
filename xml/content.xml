@@ -17,6 +17,20 @@
         <title>Trip to Thailand</title>
         <date>January 2019</date>
         <image>https://placeimg.com/730/400/nature</image>
-        <body><![CDATA[<p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
+        <body><![CDATA[
+            <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, 
+                ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern 
+                cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the 
+                Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
+    </article>
+    <article id="3">
+        <title>Trip to South Africa</title>
+        <date>September 2019</date>
+        <image>/images/P1110590.JPG</image>
+        <body><![CDATA[
+            <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces,
+                 ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, 
+                 an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, 
+                 Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
     </article>
 </content>
