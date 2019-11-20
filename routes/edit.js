@@ -22,13 +22,11 @@ router.get('/:contentId', function(req, res, next) {
                 for(var i = 0; i < articles.length; i++) {
                     var obj = articles[i];
                     
+                    // If article id is equal to the passed paramater :contentId
                     if(obj.$.id == req.params.contentId) {
-                        console.log(obj.$.id);
                         article = obj;
                     }
                 }
-
-                console.log(article);
 
                 res.render('edit', { 
                   activeMenu: 'Admin',
