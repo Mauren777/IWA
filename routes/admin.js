@@ -17,11 +17,15 @@ router.get('/', function(req, res, next) {
 
                 var apptitle = result['content']['apptitle'];
                 var articles = result['content']['article'];
+                var tips = result['content']['tip'];
+                var pages = result['content']['page'];
 
                 res.render('admin', { 
                   activeMenu: 'Admin',
                   title: apptitle,
-                  articles: articles 
+                  articles: articles,
+                  tips: tips,
+                  pages, pages
                 });
             });
         }

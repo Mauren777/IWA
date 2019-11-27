@@ -37,6 +37,13 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .nav-item.active a {
     color: #E55934 !important;
 }
+.nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.nav-link.btn, .nav-item.active a.btn {
+    color: #fff !important;
+}
 
 .intro {
     padding: 4rem 0;
@@ -63,6 +70,42 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     height: 200px;
     border-radius: 50%;
     margin: 0 auto 2rem auto;
+}
+
+.preview {
+    position: relative;
+    color: #fff !important;
+    overflow: hidden;
+}
+.preview a {
+    color: #fff !important;
+}
+.preview-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.25rem;
+    z-index: 10;
+}
+.preview-title {
+    color: #fff !important;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.35;
+    transition: .4s ease-in-out;
+    background-color: #000;
+    z-index: 1;
+}
+.preview:hover .overlay {
+    opacity: 0;
 }
 
 footer {

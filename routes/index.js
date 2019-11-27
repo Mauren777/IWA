@@ -18,12 +18,14 @@ router.get('/', function(req, res, next) {
                 var apptitle = result['content']['apptitle'];
                 var appintro = result['content']['appintro'];
                 var articles = result['content']['article'];
+                var tips = result['content']['tip'];
 
                 res.render('index', { 
                   activeMenu: 'Home',
                   title: apptitle,
                   intro: appintro,
-                  articles: articles 
+                  articles: articles,
+                  tips: tips
                 });
             });
         }

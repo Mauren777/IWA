@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="content.xsd">
   <apptitle>LosViajesdeMaura</apptitle>
-  <appintro><![CDATA[I am <strong>Traveler</strong> &amp; <strong>Blogger</strong> from Bolivia, Who Loves Documenting Adventures &amp; Discoveries Around the World]]></appintro>
+  <appintro><![CDATA[A Bolivian <strong>Traveler</strong> ,  <strong>Blogger</strong> &amp; <strong>Dreamer</strong> ]]></appintro>
   <article id="1">
-    <title>Japan and their millenary culture</title>
+    <title>Japan and the mystery of their Geishas</title>
     <date>June 2018</date>
     <image>/images/P1040121.JPG</image>
-    <body><![CDATA[<p>Africa is the world&#39;s second largest and second most-populous continent. At about 30.3 million km&sup2; including adjacent islands, it covers 6% of Earth&#39;s total surface area and 20% of its land area. With 1.2 billion people as of 2016, it accounts for about 16% of the world&#39;s human population.</p>]]></body>
+    <body><![CDATA[<p>Beyond the temples, the millenary culture and the many traditions, Japan is a country of mysteries 
+        and the Geishas are one of those well-kept secrets that everyone speaks and few know. We will walk through 
+        the narrow streets of Kyoto and enter the mystical world of these muses of Japanese art and culture.</p>]]></body>
   </article>
   <article id="2">
-    <title>Trip to Thailand</title>
+    <title>Thailand among their temples, smiling people, massages and street food.</title>
     <date>January 2019</date>
-    <image>https://placeimg.com/730/400/nature</image>
+    <image>/images/Thailand1.JPG</image>
     <body><![CDATA[
             <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, 
                 ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern 
@@ -19,7 +21,7 @@
                 Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
   </article>
   <article id="3">
-    <title>Trip to South Africa</title>
+    <title>The 'Big Five' diamonds of South Africa</title>
     <date>September 2019</date>
     <image>/images/P1110590.JPG</image>
     <body><![CDATA[
@@ -28,4 +30,30 @@
                  an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, 
                  Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
   </article>
+  <tip id="1">
+    <title>Preparing For Your Trip</title>
+    <image>https://placeimg.com/640/480/nature</image>
+    <body><![CDATA[
+            <p>We have learned that a little planning can go a long way to ensure you go on your trip as stress-free as possible.  Here are some tips that we have compiled over the years. </p>]]></body>
+  </tip>
+  <tip id="2">
+    <title>Travel Photography</title>
+    <image>https://placeimg.com/640/480/nature</image>
+    <body><![CDATA[
+            <p>We have learned that a little planning can go a long way to ensure you go on your trip as stress-free as possible.  Here are some tips that we have compiled over the years. </p>]]></body>
+  </tip>
+  <page id="about">
+    <title>About me</title>
+    <body>
+        <![CDATA[
+            <p>Test</p>]]>
+    </body>
+  </page>
+  <page id="contact">
+    <title>Contact me</title>
+    <body>
+        <![CDATA[
+            <p>Test</p>]]>
+    </body>
+  </page>
 </content>

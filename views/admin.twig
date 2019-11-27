@@ -6,7 +6,8 @@
     <div class="row">
         <div class="col-md-12">   
             <div class="card mb-5">
-                <div class="card-body">     
+                <div class="card-body">  
+                    <h3 class="card-title">Blogs</h3>   
                     <table class="table table-striped">
                         <thead class="thead-dark">
                             <tr>
@@ -27,11 +28,68 @@
                             {% endfor %}
                         </tbody>
                     </table>
+                    <div class="mx-5 text-right">
+                        <a href="/create" class="btn btn-primary">Create new Blog</a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">   
             <div class="card mb-5">
-                <div class="card-body">
-                    <a href="/create" class="btn btn-lg btn-primary">Create new</a>
+                <div class="card-body">  
+                    <h3 class="card-title">Tips</h3>   
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th style="width:10%">#</th>
+                                <th style="width:60%">Title</th>
+                                <th style="width:15%"></th>
+                                <th style="width:15%"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for tip in tips %}
+                            <tr>
+                                <th scope="row">{{ tip['$'].id }}</th>
+                                <td>{{ tip.title }}</td>
+                                <td><a href="/edit-tip/{{ tip['$'].id }}" class="btn btn-secondary btn-sm"><i class="fas fa-pen-square"></i> Edit</a></td>
+                                <td><a href="/delete-tip/{{ tip['$'].id }}" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Delete</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <div class="mx-5 text-right">
+                        <a href="/create-tip" class="btn btn-primary">Create new Tip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">   
+            <div class="card mb-5">
+                <div class="card-body">  
+                    <h3 class="card-title">Pages</h3>   
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th style="width:10%">#</th>
+                                <th style="width:70%">Title</th>
+                                <th style="width:20%"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for page in pages %}
+                            <tr>
+                                <th scope="row">{{ page['$'].id }}</th>
+                                <td>{{ page.title }}</td>
+                                <td><a href="/edit-page/{{ page['$'].id }}" class="btn btn-secondary btn-sm"><i class="fas fa-pen-square"></i> Edit</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
