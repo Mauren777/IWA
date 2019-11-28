@@ -1,0 +1,21 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8">         
+            <section class="articles">
+                <div class="article mb-5">
+                    <img src="{{ tip.image }}" alt="{{ tip.title }}" class="img-fluid mb-3">
+                    <h3>{{ tip.title }}</h3>
+                    {{ tip.body }}
+                    <hr>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-4">
+            {% include 'sidebar.twig' %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -40,11 +40,13 @@
                 <h4>Latest Tips</h4>
                 {% for tip in tips %}
                 <div class="preview mb-3">
-                    <div class="overlay"></div>
-                    <img src="{{ tip.image }}" alt="{{ tip.title }}" class="img-fluid preview-img">
-                    <div class="preview-text">
-                        <h4 class="preview-title">{{ tip.title }}</h4>
-                    </div>
+                    <a href="/view-tip/{{ tip['$'].id }}">
+                        <div class="overlay"></div>
+                        <img src="{{ tip.image }}" alt="{{ tip.title }}" class="img-fluid preview-img">
+                        <div class="preview-text">
+                            <h4 class="preview-title">{{ tip.title }}</h4>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </section>

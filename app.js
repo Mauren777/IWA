@@ -5,11 +5,13 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 
+// Routes
 var indexRouter = require('./routes/index');
 var blogRouter = require('./routes/blog');
 var tipsRouter = require('./routes/tips');
 var pageRouter = require('./routes/page');
 var viewRouter = require('./routes/view');
+var viewTipRouter = require('./routes/view-tip');
 var adminRouter = require('./routes/admin');
 var editRouter = require('./routes/edit');
 var createRouter = require('./routes/create');
@@ -31,6 +33,7 @@ app.use('/blog', blogRouter);
 app.use('/tips', tipsRouter);
 app.use('/page', pageRouter);
 app.use('/view', viewRouter);
+app.use('/view-tip', viewTipRouter);
 app.use('/admin', adminRouter);
 app.use('/edit', editRouter);
 app.use('/create', createRouter);
