@@ -108,6 +108,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     opacity: 0;
 }
 
+.image-product {
+    max-width: 200px;
+}
+
 footer {
     font-size: 14px;
     background: #141313;

@@ -42,6 +42,31 @@
     <body><![CDATA[
             <p>We have learned that a little planning can go a long way to ensure you go on your trip as stress-free as possible.  Here are some tips that we have compiled over the years. </p>]]></body>
   </tip>
+  <product id="1">
+      <title>Travel Essentials kit</title>
+      <image>/images/Product-1.jpg</image>
+      <price>30.00</price>
+  </product>
+  <product id="2">
+      <title>Travel Power Adapter</title>
+      <image>/images/Product-2.jpg</image>
+      <price>15.00</price>
+  </product>
+  <product id="3">
+      <title>Travel Luggage Trolley Suitcase Set</title>
+      <image>/images/Product-3.jpg</image>
+      <price>66.95</price>
+  </product>
+  <product id="4">
+      <title>Travel Makeup Kit</title>
+      <image>/images/Product-4.jpg</image>
+      <price>25.00</price>
+  </product>
+  <product id="5">
+      <title>Travel Neck Pillow</title>
+      <image>/images/Product-5.jpg</image>
+      <price>14.99</price>
+  </product>
   <page id="about">
     <title>About me</title>
     <body>

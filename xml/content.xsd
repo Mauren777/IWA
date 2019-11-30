@@ -26,6 +26,16 @@
             <xs:attribute type="xs:byte" name="id" use="optional"/>
           </xs:complexType>
         </xs:element>
+        <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="image"/>
+              <xs:element type="xs:float" name="price"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
         <xs:element name="page" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
