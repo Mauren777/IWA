@@ -10,12 +10,13 @@ var indexRouter = require('./routes/index');
 var blogRouter = require('./routes/blog');
 var tipsRouter = require('./routes/tips');
 var shopRouter = require('./routes/shop');
-var pageRouter = require('./routes/page');
 var viewRouter = require('./routes/view');
 var viewTipRouter = require('./routes/view-tip');
 var adminRouter = require('./routes/admin');
 var editRouter = require('./routes/edit');
+var editTipRouter = require('./routes/edit-tip');
 var createRouter = require('./routes/create');
+var createTipRouter = require('./routes/create-tip');
 
 var app = express();
 
@@ -33,12 +34,13 @@ app.use('/', indexRouter);
 app.use('/blog', blogRouter);
 app.use('/tips', tipsRouter);
 app.use('/shop', shopRouter);
-app.use('/page', pageRouter);
 app.use('/view', viewRouter);
 app.use('/view-tip', viewTipRouter);
 app.use('/admin', adminRouter);
 app.use('/edit', editRouter);
+app.use('/edit-tip', editTipRouter);
 app.use('/create', createRouter);
+app.use('/create-tip', createTipRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

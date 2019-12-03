@@ -67,32 +67,5 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">   
-            <div class="card mb-5">
-                <div class="card-body">  
-                    <h3 class="card-title">Pages</h3>   
-                    <table class="table table-striped">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th style="width:10%">#</th>
-                                <th style="width:70%">Title</th>
-                                <th style="width:20%"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for page in pages %}
-                            <tr>
-                                <th scope="row">{{ page['$'].id }}</th>
-                                <td>{{ page.title }}</td>
-                                <td><a href="/edit-page/{{ page['$'].id }}" class="btn btn-secondary btn-sm"><i class="fas fa-pen-square"></i> Edit</a></td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 {% endblock %}

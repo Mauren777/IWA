@@ -24,11 +24,7 @@
     <title>The 'Big Five' diamonds of South Africa</title>
     <date>September 2019</date>
     <image>/images/P1110590.JPG</image>
-    <body><![CDATA[
-            <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces,
-                 ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, 
-                 an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, 
-                 Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
+    <body><![CDATA[<p>South Africa is a diverse country with incredible landscapes, rich culture and a hard history in terms of the struggle for equality and freedom of its inhabitants. Without a doubt, the &#39;cherry cake&#39; or the most attractive thing in South Africa is the experience of making a safari and having the privilege of meeting the &#39;Big Five&#39; that are the Lion, the elephant, the leopard, the rhino and the buffalo.</p>]]></body>
   </article>
   <tip id="1">
     <title>Preparing For Your Trip</title>
@@ -43,42 +39,45 @@
             <p>We have learned that a little planning can go a long way to ensure you go on your trip as stress-free as possible.  Here are some tips that we have compiled over the years. </p>]]></body>
   </tip>
   <product id="1">
-      <title>Travel Essentials kit</title>
-      <image>/images/Product-1.jpg</image>
-      <price>30.00</price>
+    <title><![CDATA[
+        <h5>Travel Essentials kit </h5>
+        <p>Medium compact biodegradable plastic bag, useful for carrying basic personal hygiene products. </p> ]]>
+    </title>
+    <image>/images/Product-1.jpg</image>
+    <price>30.00</price>
   </product>
   <product id="2">
-      <title>Travel Power Adapter</title>
-      <image>/images/Product-2.jpg</image>
-      <price>15.00</price>
+    <title><![CDATA[
+        <h5>Travel Power Adapter </h5>
+        <p>2 x UK to EU Europe European Travel Adapter suitable for France, Germany, Spain, Egypt, China.</p> ]]>
+    </title>
+    <image>/images/Product-2.jpg</image>
+    <price>15.00</price>
   </product>
   <product id="3">
-      <title>Travel Luggage Trolley Suitcase Set</title>
-      <image>/images/Product-3.jpg</image>
-      <price>66.95</price>
+    <title><![CDATA[
+        <h5>Backpack</h5>
+        <p>Sports 40L Lightweight Packable Backpack, durable water resistant, really recommend for travel hiking 
+        and camping outdoor. travel hiking and camping outdoor. Foldable daypack for women and men </p> ]]>
+    </title>
+    <image>/images/Backpack1.jpg</image>
+    <price>50.00</price>
   </product>
   <product id="4">
-      <title>Travel Makeup Kit</title>
-      <image>/images/Product-4.jpg</image>
-      <price>25.00</price>
+    <title><![CDATA[
+        <h5>Travel Makeup Kit </h5>
+        <p>Cosmetic Travel Bag Waterproof Makeup Brush Toiletry Organiser for men and women Black.</p> ]]>
+    </title>
+    <image>/images/Product-4.jpg</image>
+    <price>25.00</price>
   </product>
   <product id="5">
-      <title>Travel Neck Pillow</title>
-      <image>/images/Product-5.jpg</image>
-      <price>14.99</price>
+    <title><![CDATA[
+        <h5>Travel Neck Pillow </h5>
+        <p>Purefly Travel Pillow, luxuriously, soft, inflatable neck pillow support-compact and lightweight for sleeping 
+        on airplane, car and train, carrying bag soft and ergonomic</p> ]]>
+    </title>
+    <image>/images/Product-5.jpg</image>
+    <price>14.99</price>
   </product>
-  <page id="about">
-    <title>About me</title>
-    <body>
-        <![CDATA[
-            <p>Test</p>]]>
-    </body>
-  </page>
-  <page id="contact">
-    <title>Contact me</title>
-    <body>
-        <![CDATA[
-            <p>Test</p>]]>
-    </body>
-  </page>
 </content>
