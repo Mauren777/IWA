@@ -26,6 +26,18 @@ router.get('/', function(req, res, next) {
             });
         }
     });
+
+    //res.writeHead(200, {'Content-Type': 'text/html'});
+
+    //var xml = fs.readFileSync('/../content.xml', 'utf8');
+    //var xsl = fs.readFileSync('/../content.xsl', 'utf8');
+    //var doc = xmlParse(xml);
+    //var stylesheet = xmlParse(xsl);
+
+    //var result = xsltProcess(doc, stylesheet);
+    //console.log(result);
+    //res.end(result.toString());
+    
 });
 
 module.exports = router;

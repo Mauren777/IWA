@@ -2,6 +2,7 @@
 <content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="content.xsd">
   <apptitle>LosViajesdeMaura</apptitle>
   <appintro><![CDATA[A Bolivian <strong>Traveler</strong> ,  <strong>Blogger</strong> &amp; <strong>Dreamer</strong> ]]></appintro>
+  
   <article id="1">
     <title>Japan and the mystery of their Geishas</title>
     <date>June 2018</date>
@@ -11,6 +12,7 @@
         the narrow streets of Kyoto and enter the mystical world of these muses of Japanese art and culture.</p>]]>
     </body>
   </article>
+
   <article id="2">
     <title>Thailand among their temples, smiling people, massages and street food.</title>
     <date>January 2019</date>
@@ -19,8 +21,10 @@
             <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, 
                 ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern 
                 cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the 
-                Emerald Buddha Temple (Wat Phra Kaew).</p>]]></body>
+                Emerald Buddha Temple (Wat Phra Kaew).</p>]]>
+    </body>
   </article>
+
   <article id="3">
     <title>The 'Big Five' diamonds of South Africa</title>
     <date>September 2019</date>
@@ -28,8 +32,10 @@
     <body><![CDATA[<p>South Africa is a diverse country with incredible landscapes, rich culture and a hard history in terms 
         of the struggle for equality and freedom of its inhabitants. Without a doubt, the &#39;cherry cake&#39; or the most 
         attractive thing in South Africa is the experience of making a safari and having the privilege of meeting the &#39;Big 
-        Five&#39; that are the Lion, the elephant, the leopard, the rhino and the buffalo.</p>]]></body>
+        Five&#39; that are the Lion, the elephant, the leopard, the rhino and the buffalo.</p>]]>
+    </body>
   </article>
+
   <product id="1">
     <title><![CDATA[
         <h5>Travel Essentials kit </h5>
@@ -38,6 +44,7 @@
     <image>/images/Product-1.jpg</image>
     <price>30.00</price>
   </product>
+
   <product id="2">
     <title><![CDATA[
         <h5>Travel Power Adapter </h5>
@@ -46,6 +53,7 @@
     <image>/images/Product-2.jpg</image>
     <price>15.00</price>
   </product>
+
   <product id="3">
     <title><![CDATA[
         <h5>Backpack</h5>
@@ -55,6 +63,7 @@
     <image>/images/Backpack1.jpg</image>
     <price>50.00</price>
   </product>
+
   <product id="4">
     <title><![CDATA[
         <h5>Travel Makeup Kit </h5>
@@ -63,6 +72,7 @@
     <image>/images/Product-4.jpg</image>
     <price>25.00</price>
   </product>
+
   <product id="5">
     <title><![CDATA[
         <h5>Travel Neck Pillow </h5>

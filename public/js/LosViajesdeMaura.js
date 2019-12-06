@@ -15,6 +15,23 @@ $( document ).ready(function() {
 
         // Add Product to list
         $('#product-list').append('<li>'+ productTitle +'</li>');
+        $('#product-list p').addClass('to-remove');
     });
 
+    /*console.log("this", $('#table-shop'));
+    $("#table-shop").empty();
+    $.getJSONuncached = function (url) {
+        return $.ajax(
+        {
+            url: url,
+            type: 'GET',
+            port: 5000,
+            cache: false,
+            success: function (html)
+            {
+                $("#table-shop").append(html);
+            }
+        });
+    };
+    $.getJSONuncached("/get/shop")*/
 });
