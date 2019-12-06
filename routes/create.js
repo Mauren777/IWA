@@ -23,7 +23,7 @@ router.post('/', function (req, res) {
 	var articleImage = req.body.article_image;
 	var articleBody = req.body.article_body;
 
-	var xmlfile = __dirname + "/../xml/content.xml";
+	var xmlfile = __dirname + "/../content.xml";
 
 	fs.readFile(xmlfile, "utf-8", function (error, text) {
         if (error) {

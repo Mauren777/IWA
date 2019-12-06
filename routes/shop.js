@@ -7,7 +7,7 @@ var parser       = new xml2js.Parser();
 /* GET Shop page. */
 router.get('/', function(req, res, next) {
   
-  var xmlfile = __dirname + "/../xml/content.xml";
+  var xmlfile = __dirname + "/../content.xml";
 
   fs.readFile(xmlfile, "utf-8", function (error, text) {
         if (error) {

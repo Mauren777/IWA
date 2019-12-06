@@ -7,7 +7,7 @@ var parser       = new xml2js.Parser();
 /* GET admin page. */
 router.get('/', function(req, res, next) {
 
-  var xmlfile = __dirname + "/../xml/content.xml";
+  var xmlfile = __dirname + "/../content.xml";
 
   fs.readFile(xmlfile, "utf-8", function (error, text) {
         if (error) {
@@ -17,13 +17,11 @@ router.get('/', function(req, res, next) {
 
                 var apptitle = result['content']['apptitle'];
                 var articles = result['content']['article'];
-                var tips = result['content']['tip'];
 
                 res.render('admin', { 
                   activeMenu: 'Admin',
                   title: apptitle,
                   articles: articles,
-                  tips: tips,
                 });
             });
         }
