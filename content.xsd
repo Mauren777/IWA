@@ -1,25 +1,13 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="content">
     <xs:complexType>
       <xs:sequence>
-        <xs:element type="xs:string" name="apptitle"/>
-        <xs:element type="xs:string" name="appintro"/>
-        <xs:element name="article" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="title"/>
-              <xs:element type="xs:string" name="date"/>
-              <xs:element type="xs:string" name="image"/>
-              <xs:element type="xs:string" name="body"/>
-            </xs:sequence>
-            <xs:attribute type="xs:byte" name="id" use="optional"/>
-          </xs:complexType>
-        </xs:element>
         <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="description"/>
               <xs:element type="xs:string" name="image"/>
               <xs:element type="xs:float" name="price"/>
             </xs:sequence>

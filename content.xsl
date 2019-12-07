@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-                <table id="Travel Shop" class="indent">
+                <table id="shopTable" class="indent">
                     <thead>
                         <tr>
                             <th colspan="3">Los Viajes de Maura Shop</th>
@@ -12,14 +12,14 @@
                             <th>Price</th>
                         </tr>
                     </thead>
-                    <!-- <tbody>
-                        <xsl:for-each select="/cafemenu/section">
+                    <tbody>
+                        <xsl:for-each select="/content/section">
                             <tr>
                                 <td colspan="3">
                                     <xsl:value-of select="@name" />
                                 </td>
                             </tr>
-                            <xsl:for-each select="entree">
+                            <xsl:for-each select="product">
                             <tr id="{position()}">
                                 <xsl:attribute name="vegetarian">
                                     <xsl:value-of select="boolean(./@vegetarian)" />
@@ -28,7 +28,7 @@
                                     <input name="item0" type="checkbox" />
                                 </td>
                                 <td>
-                                    <xsl:value-of select="item" />
+                                    <xsl:value-of select="title" />
                                 </td>
                                 <td align="right">
                                     <xsl:value-of select="price" />
@@ -36,7 +36,7 @@
                             </tr>
                             </xsl:for-each>
                         </xsl:for-each>
-                    </tbody> -->
+                    </tbody>
                 </table><br/>
     </xsl:template>
 </xsl:stylesheet>

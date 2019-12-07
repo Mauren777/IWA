@@ -56,56 +56,26 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     color: #9BC53D;
 }
 
-.articles {
-    padding-bottom: 4rem;
+table, th, td {
+     border-collapse: collapse;
+     border: 1px solid black;
+     text-align: center;
 }
-
-.sidebar {
-    padding: 4rem 0;
+ table {
+     border-collapse: collapse;
+     width:100%;
 }
-
-.profile-photo {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto 2rem auto;
+ td, th {
+     border: 1px solid #ced4da;
+     padding: 0.5rem;
+     text-align: left;
 }
-
-.preview {
-    position: relative;
-    color: #fff !important;
-    overflow: hidden;
+ th {
+     font-weight: bold;
 }
-.preview a {
-    color: #fff !important;
-}
-.preview-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 1.25rem;
-    z-index: 10;
-}
-.preview-title {
-    color: #fff !important;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.35;
-    transition: .4s ease-in-out;
-    background-color: #000;
-    z-index: 1;
-}
-.preview:hover .overlay {
-    opacity: 0;
+.selected {
+            background-color: #dc3545;
+            color: #FFF;
 }
 
 .image-product {
