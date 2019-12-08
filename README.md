@@ -9,14 +9,14 @@ Student ID: 2017241
 
 Data is loaded from xml files and parsed with xml2js package.
 
-The UI implements Bootstrap and custom stylesheet `public/css/LosViajesdeMaura.css`
+The UI implements Bootstrap and custom stylesheet.
 
 ## Instructions
 
-Open in Gitpod. The YML file .gitpod.yml will automatically run:
+Open in Gitpod. Run:
 
 ```
-npm install
-run 'npm start'
+npm install (dependences http...)
+node app.js
 ```
 In the 'Open Ports' tab click 'Open Browser'
