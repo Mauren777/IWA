@@ -1,3 +1,4 @@
+var total = 0;
 function draw_table()
 {
 	$("#results").empty();
@@ -18,19 +19,51 @@ function draw_table()
 	$.getJSONuncached("/get/html")
 };
 
-function select_row()
+function draw_shop()
 {
-	$("#menuTable tbody tr[id]").click(function ()
+	$("#shop-list").empty();
+	$.getJSONuncached = function (url)
 	{
-		$(".selected").removeClass("selected");
-		$(this).addClass("selected");
-		var section = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
-		var entree = $(this).attr("id") - 1;
-		delete_row(section, entree);
-	})
+		return $.ajax(
+		{
+			url: url,
+			type: 'GET',
+			cache: false,
+			success: function (html)
+			{
+				$("#shop-list").append(html);
+                
+                $('.add-to-cart').click(function() {
+
+                    productTitle = $(this).data('product-title');
+                    productPrice = $(this).data('product-price');
+                    
+                    // Update Total
+                    total = ((productPrice * 10)/10) + total;
+                    $('#total').html( total );
+
+                    // Add Product to list
+                    $('#product-list').append('<div class="col-md-12"><h5>'+ productTitle +'</h5><hr/></div>');
+                });
+			}
+		});
+	};
+	$.getJSONuncached("/get/shop")
 };
 
-function delete_row(sec, ent)
+function select_row()
+{
+	$("#adminTable tbody tr[id]").click(function () {
+        
+		$(".selected").removeClass("selected");
+		$(this).addClass("selected");
+        var entree = $(this).attr("id") - 1;
+        console.log("selected", entree);
+		delete_row(entree);
+    })
+};
+
+function delete_row(ent)
 {
 	$("#delete").click(function ()
 	{
@@ -40,8 +73,7 @@ function delete_row(sec, ent)
 			type: "POST",
 			data:
 			{
-				section: sec,
-				entree: ent
+				product: ent
 			},
 			cache: false,
 			success: setTimeout(draw_table, 1000)
@@ -53,6 +85,7 @@ function delete_row(sec, ent)
 
 $( document ).ready(function() {
 
+    draw_shop();
     draw_table();
 
 });

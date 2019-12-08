@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-                <table id="adminTable" class="indent">
-                    <thead>
+                <table id="shopTable" class="table table-striped">
+                    <thead class="thead-dark">
                         <tr>
-                            <th colspan="3">Los Viajes de Maura Shop</th>
-                        </tr>
-                        <tr>
-                            <th>Select</th>
-                            <th>Item</th>
+                            <th>Product</th>
+                            <th>Description</th>
                             <th>Price</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <xsl:for-each select="/catalogue/section">
                             <xsl:for-each select="product">
                             <tr id="{position()}">
-                                <xsl:attribute name="vegetarian">
-                                    <xsl:value-of select="boolean(./@vegetarian)" />
-                                </xsl:attribute>
                                 <td align="center">
-                                    <input name="item0" type="checkbox" />
+                                    <img src="{image}" class="image-fluid image-product"/>
                                 </td>
-                                <td>
-                                    <xsl:value-of select="title" />
+                                <td align="left">
+                                    <h5><xsl:value-of select="title" /></h5>
+                                    <p><xsl:value-of select="description" /></p>
+                                    
                                 </td>
                                 <td align="right">
                                     <xsl:value-of select="price" />
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-primary add-to-cart" data-product-title="{ title }" data-product-price="{ price }">Add to cart</button>
                                 </td>
                             </tr>
                             </xsl:for-each>

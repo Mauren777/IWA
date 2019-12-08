@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="content.xsd">
-<section>
-  <product id="1">
-    <title>Travel Essentials kit</title>
-    <description><![CDATA[<p>Medium compact biodegradable plastic bag, useful for carrying basic personal hygiene products. </p> ]]></description>
-    <image>/images/Product-1.jpg</image>
-    <price>30.00</price>
+<catalogue>
+  <section>
+    <product>
+      <title>Travel Essentials kit</title>
+      <description>Medium compact biodegradable plastic bag, useful for carrying basic personal hygiene products.</description>
+      <image>/images/Product-1.jpg</image>
+      <price>30.00</price>
+    </product>
+    <product>
+        <title>Travel Power Adapter</title>
+        <description>2 x UK to EU Europe European Travel Adapter suitable for France, Germany, Spain, Egypt, China.</description>
+        <image>/images/Product-2.jpg</image>
+        <price>15.00</price>
+    </product>
+    <product>
+      <title>Backpack</title>
+      <description>Sports 40L Lightweight Packable Backpack, durable water resistant, really recommend for travel hiking 
+                and camping outdoor. travel hiking and camping outdoor. Foldable daypack for women and men</description>
+      <image>/images/Backpack1.jpg</image>
+      <price>50.00</price>
+    </product>
+    <product>
+        <title>Travel Makeup Kit</title>
+        <description>Cosmetic Travel Bag Waterproof Makeup Brush Toiletry Organiser for men and women Black.</description>
+        <image>/images/Product-4.jpg</image>
+        <price>25.00</price>
   </product>
-  <product id="2">
-    <title>Travel Power Adapter</title>
-    <description><![CDATA[<p>2 x UK to EU Europe European Travel Adapter suitable for France, Germany, Spain, Egypt, China.</p> ]]></description>
-    <image>/images/Product-2.jpg</image>
-    <price>15.00</price>
-  </product>
-  <product id="3">
-    <title>Backpack</title>
-    <description><![CDATA[<p>Sports 40L Lightweight Packable Backpack, durable water resistant, really recommend for travel hiking 
-        and camping outdoor. travel hiking and camping outdoor. Foldable daypack for women and men </p> ]]></description>
-    <image>/images/Backpack1.jpg</image>
-    <price>50.00</price>
-  </product>
-  <product id="4">
-    <title>Travel Makeup Kit</title>
-    <description><![CDATA[<p>Cosmetic Travel Bag Waterproof Makeup Brush Toiletry Organiser for men and women Black.</p> ]]></description>
-    <image>/images/Product-4.jpg</image>
-    <price>25.00</price>
-  </product>
-  <product id="5">
-    <title>Travel Neck Pillow</title>
-    <description><![CDATA[<p>Purefly Travel Pillow, luxuriously, soft, inflatable neck pillow support-compact and lightweight for sleeping 
-        on airplane, car and train, carrying bag soft and ergonomic</p> ]]></description>
-    <image>/images/Product-5.jpg</image>
-    <price>14.99</price>
-  </product>
+    <product>
+      <title>Travel Neck Pillow</title>
+      <description>Purefly Travel Pillow, luxuriously, soft, inflatable neck pillow support-compact and lightweight for sleeping 
+                on airplane, car and train, carrying bag soft and ergonomic</description>
+      <image>/images/Product-5.jpg</image>
+      <price>14.99</price>
+    </product>
   </section>
-</content>
+</catalogue>

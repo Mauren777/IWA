@@ -56,6 +56,22 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     color: #9BC53D;
 }
 
+.articles {
+    padding-bottom: 4rem;
+}
+
+.sidebar {
+    padding: 4rem 0;
+}
+
+.profile-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
@@ -74,7 +90,7 @@ table, th, td {
      font-weight: bold;
 }
 .selected {
-            background-color: #dc3545;
+            background-color: #E55934;
             color: #FFF;
 }
 
@@ -99,4 +115,42 @@ footer h2 {
 }
 .to-remove {
     display: none;
+}
+.footer-copyright {
+    margin-bottom: 0px;
+}
+.preview {
+    position: relative;
+    color: #fff !important;
+    overflow: hidden;
+}
+.preview a {
+    color: #fff !important;
+}
+.preview-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.25rem;
+    z-index: 10;
+}
+.preview-title {
+    color: #fff !important;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.35;
+    transition: .4s ease-in-out;
+    background-color: #000;
+    z-index: 1;
+}
+.preview:hover .overlay {
+    opacity: 0;
 }
