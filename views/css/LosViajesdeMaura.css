@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     background-color:#E55934 !important;
     border-color:rgb(214, 81, 44) !important;
 }
+.btn-secondary {
+    color: #fff;
+    background-color: #9bc53d !important;
+    border-color: #9bc53d !important;
+}
 
 .navbar {
     background: #fff !important;

@@ -12,7 +12,8 @@ function draw_table()
 			success: function (html)
 			{
 				$("#results").append(html);
-				select_row();
+                select_row();
+                edit_row();
 			}
 		});
 	};
@@ -80,6 +81,55 @@ function delete_row(ent)
 		})
 	})
 };
+
+function edit_row() {
+    var productId;
+    $('.edit-row').click(function() {
+        productId = $(this).data('product-id');
+        
+        var editInfo = $('tr#'+productId+' td').map(function() {
+            return $(this).text()
+        });
+
+        $('input[name=title]').val(editInfo[1]);
+        $('textarea[name=description]').val(editInfo[2]);
+        $('input[name=price]').val(editInfo[3]);
+
+        $('button[type=submit]').prop('disabled', true);
+        $('button[id=edit]').prop('disabled', false);
+        console.log(productId, editInfo);
+    });
+    $('#edit').click(function() {
+        var editTitle = $('input[name=title]').val(),
+            editDescription = $('textarea[name=description]').val(),
+            editPrice = $('input[name=price]').val();
+        console.log("Edit",productId, editTitle, editDescription, editPrice);
+        $.ajax(
+        {
+            url: '/post/update',
+            type: 'POST',
+            data:
+			{
+                id: productId,
+                title:  editTitle,
+                description: editDescription,
+                price: editPrice
+			},
+			cache: false,
+			success: function() {
+                $('button[type=submit]').prop('disabled', false);
+                $('button[id=edit]').prop('disabled', true);
+
+                $('input[name=title]').val(""),
+                $('textarea[name=description]').val(""),
+                $('input[name=price]').val("");
+
+                $("#shop-list").empty();
+                setTimeout(draw_table, 1000);
+            }
+        })
+    });
+}
 
 
 

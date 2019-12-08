@@ -117,6 +117,36 @@ router.post('/post/delete', function(req, res) {
 
 });
 
+//POST request to update
+router.post('/post/update', function(req, res) {
+    // var updateId = req.params.id;
+    // res.send(req.params.id);
+
+  // Function to read in a JSON file, add to it & convert to XML
+  function appendJSON(obj) {
+    // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
+    xmlFileToJs('content.xml', function(err, result) {
+      if (err) throw (err);
+      result.catalogue.section[0].product[obj.id - 1].title = obj.title;
+      result.catalogue.section[0].product[obj.id - 1].description = obj.description;
+      result.catalogue.section[0].product[obj.id - 1].price = obj.price;
+    //   result.catalogue.section[0].product.push({'title': obj.title, 'description': obj.description, 'image': '/images/undefined.png', 'price': obj.price});
+      
+      //Converting back to our original XML file from JSON
+      jsToXmlFile('content.xml', result, function(err) {
+        if (err) console.log(err);
+      })
+    })
+  };
+
+  // Call appendJSON function and pass in body of the current POST request
+  appendJSON(req.body);
+
+  // Re-direct the browser back to the page, where the POST request came from
+  res.redirect('back');
+
+});
+
 //This is where we as the server to be listening to user with a specified IP and Port
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
   var addr = server.address();

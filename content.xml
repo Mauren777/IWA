@@ -8,10 +8,10 @@
       <price>30.00</price>
     </product>
     <product>
-        <title>Travel Power Adapter</title>
-        <description>2 x UK to EU Europe European Travel Adapter suitable for France, Germany, Spain, Egypt, China.</description>
-        <image>/images/Product-2.jpg</image>
-        <price>15.00</price>
+      <title>Travel Power Adapter</title>
+      <description>2 x UK to EU Europe European Travel Adapter suitable for France, Germany, Spain, Egypt, China.</description>
+      <image>/images/Product-2.jpg</image>
+      <price>15.00</price>
     </product>
     <product>
       <title>Backpack</title>
@@ -21,17 +21,30 @@
       <price>50.00</price>
     </product>
     <product>
-        <title>Travel Makeup Kit</title>
-        <description>Cosmetic Travel Bag Waterproof Makeup Brush Toiletry Organiser for men and women Black.</description>
-        <image>/images/Product-4.jpg</image>
-        <price>25.00</price>
-  </product>
+      <title>Travel Makeup Kit</title>
+      <description>Cosmetic Travel Bag Waterproof Makeup Brush Toiletry Organiser for men and women Black.</description>
+      <image>/images/Product-4.jpg</image>
+      <price>25.00</price>
+    </product>
     <product>
       <title>Travel Neck Pillow</title>
       <description>Purefly Travel Pillow, luxuriously, soft, inflatable neck pillow support-compact and lightweight for sleeping 
                 on airplane, car and train, carrying bag soft and ergonomic</description>
       <image>/images/Product-5.jpg</image>
       <price>14.99</price>
+    </product>
+    <product>
+      <title>The Queen Pack</title>
+      <description>Sports 40L Lightweight Packable Backpack, durable water resistant, really recommend for travel hiking 
+                and camping outdoor. travel hiking and camping outdoor. Foldable daypack for women and men</description>
+      <image>/images/undefined.png</image>
+      <price>35.99</price>
+    </product>
+    <product>
+      <title>FEliz cumple</title>
+      <description>www</description>
+      <image>/images/undefined.png</image>
+      <price>12</price>
     </product>
   </section>
 </catalogue>

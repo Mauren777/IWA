@@ -4,11 +4,12 @@
                 <table id="adminTable" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3">Los Viajes de Maura Shop</th>
+                            <th colspan="5">Los Viajes de Maura Shop</th>
                         </tr>
                         <tr>
                             <th>Select</th>
-                            <th>Item</th>
+                            <th>Title</th>
+                            <th>Descriptin</th>
                             <th>Price</th>
                         </tr>
                     </thead>
@@ -16,14 +17,14 @@
                         <xsl:for-each select="/catalogue/section">
                             <xsl:for-each select="product">
                             <tr id="{position()}">
-                                <xsl:attribute name="vegetarian">
-                                    <xsl:value-of select="boolean(./@vegetarian)" />
-                                </xsl:attribute>
                                 <td align="center">
-                                    <input name="item0" type="checkbox" />
+                                    <button class="btn btn-sm btn-secondary edit-row" data-product-id="{ position() }">Edit</button>
                                 </td>
                                 <td>
                                     <xsl:value-of select="title" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="description"/>
                                 </td>
                                 <td align="right">
                                     <xsl:value-of select="price" />
